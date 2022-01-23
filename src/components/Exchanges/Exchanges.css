@@ -1,0 +1,39 @@
+.exchange_page {
+  margin-top: 70px;
+}
+
+.exchange_Main_Heading {
+  margin: 0% auto;
+  width: 55%;
+}
+.exchange_Head {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.exchange_Main {
+  margin: 0% auto;
+  width: 60%;
+  border: 1px solid black;
+}
+
+.accordian_display {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.spanImage {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 880px) {
+  .exchange_Main {
+    width: 100%;
+    padding: 5px;
+  }
+}

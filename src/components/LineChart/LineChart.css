@@ -1,0 +1,21 @@
+
+.lineChart {
+    margin: 0% auto;
+    width: 70%;
+}
+
+.coin_desc {
+    text-align: center;
+}
+.coin_desc > p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+    .lineChart {
+        width: 100%;
+        padding: 5px;
+    }
+    
+  }

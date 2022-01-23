@@ -1,0 +1,99 @@
+.crypto_detail_page {
+  margin-top: 70px;
+}
+
+.detailHeading {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.details_main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.value_Statistic {
+  width: 450px;
+  background-color: #392d91;
+  margin-top: 10px;
+}
+.Other_Statistic {
+  width: 450px;
+  margin-top: 10px;
+}
+.Cryto_detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+  border-bottom: 1px solid white;
+}
+.Cryto_detail > p {
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+
+.inner_Heading {
+  text-align: center;
+}
+
+.inner_Heading > p {
+  font-size: 17px;
+}
+.statistic_value {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 27px;
+  font-style: italic;
+  border-bottom: 2px solid black;
+  color: #392d91;
+}
+
+.select_Container {
+  text-align: center;
+}
+
+.select_timePeriod {
+  width: 250px;
+  height: 40px;
+}
+
+.crypto_Details_Desc {
+  padding: 30px 30px 0px 30px;
+}
+.crypto_Details_name {
+  font-size: 27px;
+  font-weight: bold;
+  color: #392d91;
+  font-style: italic;
+}
+
+.crypto_Links_Container {
+  padding: 10px 10px 0px 25px;
+}
+.cryptoLinks_main {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.crypto_Links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 10px 0px 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 700px) {
+    .cryptoLinks_main {
+        width: 100%;
+    }
+    .crypto_Links {
+        
+        font-size: 13px;
+    }
+    
+  }
