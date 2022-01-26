@@ -4,6 +4,7 @@ import axios from "axios";
 import options from "../../features/crytoApi";
 import { Loader } from "../index";
 import { Accordion } from "react-bootstrap";
+import millify from "millify";
 
 const Exchanges = () => {
   const [exchangeData, setExchangeData] = useState();
@@ -57,7 +58,7 @@ const Exchanges = () => {
                             </span>{" "}
                             {val.name}
                           </p>
-                          <p>{val.name}</p>
+                          <p>{millify(val["24hVolume"])}</p>
                           <p>{val.numberOfMarkets}</p>
                           <p>{val.name}</p>
                         </div>

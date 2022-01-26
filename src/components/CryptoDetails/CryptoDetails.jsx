@@ -22,6 +22,7 @@ const CryptoDetails = () => {
 
   const cryptoDetails = data?.data?.coin;
 
+  console.log(cryptoDetails);
   const time = ["3h", "24h", "7d", "30d", "1y", "3m", "3y", "5y"];
 
   if (!cryptoDetails) return <Loader />;
@@ -72,7 +73,7 @@ const CryptoDetails = () => {
           </div>
           <div className="Cryto_detail">
             <p>24h Volume</p>
-            {/* <p>{cryptoDetails?.24h}</p> */}
+            <p>{millify(cryptoDetails?.["24hVolume"])}</p>
           </div>
           <div className="Cryto_detail">
             <p>Market Cap</p>
